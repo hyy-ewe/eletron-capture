@@ -1,0 +1,8 @@
+build:
+  image: node:14
+  script:
+    - yarn install --production=false
+    - node build/faas.js
+package:
+  artifact:
+    dir: dist

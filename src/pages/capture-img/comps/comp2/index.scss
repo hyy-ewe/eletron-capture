@@ -1,0 +1,68 @@
+.body2 {
+  position: relative;
+  width: 1240px;
+  margin: auto;
+
+  .canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    div {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+    }
+
+    .title {
+      top: 534px;
+      font-weight: 600;
+      font-size: 36px;
+      color: #333333;
+    }
+
+    .bang_dang {
+      position: absolute;
+      height: 120px;
+      top: 674px;
+      font-size: 48px;
+      font-weight: bold;
+      color: white;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 60px;
+      }
+      .text {
+        display: inline-block;
+        background: #333333;
+        border-radius: 90px;
+        padding: 30px 120px;
+        margin: 0 64px 0 40px;
+        position: relative;
+      }
+      .background {
+        position: absolute;
+        border: 10px solid #333333;
+        border-radius: 90px;
+        width: 100%;
+        height: 100%;
+        top: 30px;
+        left: 24px;
+      }
+    }
+    .name {
+      top: 1012px;
+      color: #333333;
+      font-weight: 900;
+      font-size: 144px;
+    }
+    .group {
+      top: 1257px;
+      font-weight: bold;
+      font-size: 36px;
+      color: #333333;
+    }
+  }
+}
